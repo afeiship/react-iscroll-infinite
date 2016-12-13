@@ -31,7 +31,6 @@ class IscollInfinite extends React.Component{
   static getInstance(inHandle){
     return instanceMap[inHandle];
   }
-
   constructor(inProps){
     super(inProps);
     instanceMap[inProps.delegateHandle] = this;

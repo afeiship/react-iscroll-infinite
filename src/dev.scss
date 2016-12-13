@@ -42,13 +42,30 @@ ul,li{
 }
 
 .wrapper-scroller {
+	ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		text-align: left;
+		position: relative;
+	}
 	li {
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		-webkit-transform: translateZ(0);
+		-moz-transform: translateZ(0);
+		-ms-transform: translateZ(0);
+		-o-transform: translateZ(0);
+		transform: translateZ(0);
 		padding: 0 10px;
 		height: 40px;
 		line-height: 40px;
 		border-bottom: 1px solid #ccc;
 		border-top: 1px solid #fff;
 		background-color: #fafafa;
-		font-size: 14px;
+		font-size: 16px;
 	}
 }
